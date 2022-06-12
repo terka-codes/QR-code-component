@@ -26,8 +26,8 @@ This is a screenshot of the solution for a desktop.
 
 ### Links to solution
 
-- Solution: [here](https://your-solution-url.com)
-- Live Site: [here](https://your-live-site-url.com)
+- Solution: [HTML](https://github.com/terka-codes/QR-code-component/blob/main/index.html) [CSS](https://github.com/terka-codes/QR-code-component/blob/main/styles.css)
+- Live Site: [here](https://terka-codes.github.io/QR-code-component/)
 
 ## My process
 
