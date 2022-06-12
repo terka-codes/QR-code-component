@@ -10,16 +10,12 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [Links to the solution](#links-to-solution)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,14 +24,10 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
 ![Desktop screenshot](./Screenshots/Screenshot%20Desktop%20Frontend%20Mentor%20QR%20code%20component.png)
 This is a screenshot of the solution for a desktop.
 
-![mobile screenshot](./Screenshots/Screenshot%20mobile%20Frontend%20Mentor%20QR%20code%20component.png)
-This is a screenshot of the solution for a mobile.
-
-### Links
+### Links to solution
 
 - Solution: [here](https://your-solution-url.com)
 - Live Site: [here](https://your-live-site-url.com)
-- Twitter: [live site here](https://twitter.com/TerkaCodes)
 
 ## My process
 
@@ -47,53 +39,29 @@ This is a screenshot of the solution for a mobile.
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I practiced my knowledge of the CSS Flexbox element. I found it hard to center the element vertically at the beginning but then I revised my knowledge about Flexbox properties and it all clicked and I realized what exactly I should do.
 
-To see how you can add code snippets, see below:
+Note: Always remember to put the height, otherwise the flexbox won't align vertically.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+To remember in the future & for you to see what I am talking about:
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: nowrap;
+  height: 100vh;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I think I am getting along with HTML quite well, but I sometimes still struggle with Flexbox. In the upcoming days and weeks, I want to focus on practicing flexbox and grid and learning more CSS animations and other fun features. Then I can peacefully proceed to the Java script. But of course, learn HTML and CSS still, because I know I can't even know everything. 👩‍💻
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@terka-codes](https://www.frontendmentor.io/profile/terka-codes)
+- Twitter: [@TerkaCodes](https://twitter.com/TerkaCodes)
